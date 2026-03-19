@@ -1,10 +1,10 @@
 /* Waldorf Roofing — Rank & Rent Site */
 :root {
-  --navy: #1a2744;
-  --blue: #2563EB;
-  --blue-dark: #1d4ed8;
-  --orange: #EA580C;
-  --orange-light: #FB923C;
+  --navy: #0c2d48;
+  --blue: #1976D2;
+  --blue-dark: #1565C0;
+  --orange: #00838F;
+  --orange-light: #00ACC1;
   --bg: #f8fafc;
   --white: #ffffff;
   --text: #1e293b;
@@ -61,7 +61,7 @@ img { max-width: 100%; display: block; }
 .trust-bar { background: var(--white); border-bottom: 1px solid var(--border); padding: 20px 0; }
 .trust-items { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; }
 .trust-item { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; font-weight: 600; color: var(--text); }
-.trust-icon { width: 36px; height: 36px; background: rgba(37,99,235,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.trust-icon { width: 36px; height: 36px; background: rgba(25,118,210,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
 
 /* Section */
 .section { padding: 72px 0; }
@@ -75,7 +75,7 @@ img { max-width: 100%; display: block; }
 .service-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-3px); }
 .service-card h3 { font-size: 1.05rem; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
 .service-card p { font-size: 0.9rem; color: var(--text-light); line-height: 1.65; }
-.service-icon { width: 44px; height: 44px; background: rgba(37,99,235,0.1); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; }
+.service-icon { width: 44px; height: 44px; background: rgba(25,118,210,0.1); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; }
 
 /* Why Choose Us */
 .why-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
